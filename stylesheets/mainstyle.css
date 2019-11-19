@@ -1,0 +1,55 @@
+/*
+This stylesheet is connected to the main website
+Created on : 1-nov-2019, 11:18:57
+Author     : J. de Klijn
+*/
+
+/* Main styling */
+body{
+    background: rgb(132,128,201); /**/
+    background: -moz-linear-gradient(151deg, rgba(132,128,201,0.7483368347338936) 0%, rgba(44,150,85,1) 51%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(151deg, rgba(132,128,201,0.7483368347338936) 0%, rgba(44,150,85,1) 51%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(151deg, rgba(132,128,201,0.7483368347338936) 0%, rgba(44,150,85,1) 51%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8480c9",endColorstr="#00d4ff",GradientType=1);
+    color: black;
+    font-size: 14pt;
+}
+
+h1{
+    color: aquamarine;
+    font-size: 72pt;
+}
+
+h2{
+    font-size: 64pt;
+}
+h3{
+    font-size: 54pt;
+}
+h4{
+    font-size: 46pt;
+}
+h5{
+    font-size: 38pt;
+}
+h6{
+    font-size: 30pt;
+}
+h7{
+    font-size: 22pt;
+}
+h8{
+    font-size: 14pt;
+}
+
+a{ /* the styling of a link */
+    color: red;
+    text-decoration: none;
+}
+
+a:hover{ /* The styling of the link in mouseover*/
+    color: gold;
+    background-color: black;
+}
+
+
