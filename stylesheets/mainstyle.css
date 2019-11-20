@@ -5,15 +5,22 @@ Author     : J. de Klijn
 */
 
 /* Main styling */
+
+:root{
+    --PrimarytColor: #aa9773; /* Yellow green */
+    --SecondaryColor: #87a237; /* Green */
+    --ShadeOfWhite: #fff7d2; /* Very light green */
+    --ShadeOfBlack: #201800;/* Darkest green */
+    --SecondBlack: #655509;/* Dark green */
+}
+
 body{
-    background: rgb(132,128,201); /**/
-    background: -moz-linear-gradient(151deg, rgba(132,128,201,0.7483368347338936) 0%, rgba(44,150,85,1) 51%, rgba(0,212,255,1) 100%);
-    background: -webkit-linear-gradient(151deg, rgba(132,128,201,0.7483368347338936) 0%, rgba(44,150,85,1) 51%, rgba(0,212,255,1) 100%);
-    background: linear-gradient(151deg, rgba(132,128,201,0.7483368347338936) 0%, rgba(44,150,85,1) 51%, rgba(0,212,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8480c9",endColorstr="#00d4ff",GradientType=1);
+    background: var(--PrimarytColor);
     color: black;
     font-size: 14pt;
 }
+
+
 
 h1{
     color: aquamarine;
@@ -42,14 +49,15 @@ h8{
     font-size: 14pt;
 }
 
-a{ /* the styling of a link */
-    color: red;
+a{
+    color: var(--ShadeOfWhite);
+    background-color: var(--PrimarytColor);
     text-decoration: none;
 }
 
 a:hover{ /* The styling of the link in mouseover*/
-    color: gold;
-    background-color: black;
+    color: var(--ShadeOfBlack);
+    background-color: var(--SecondaryColor);
 }
 
 
