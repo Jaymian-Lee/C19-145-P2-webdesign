@@ -59,4 +59,29 @@ a:hover{ /* The styling of the link in mouseover*/
     background-color: var(--SecondaryColor);
 }
 
+/* =============== CSS Classes ======================== */
+
+.boxmodel{
+    width:          50%;
+    /* border:       10px dotted red; is the line on the outside of the content */
+    border-top:     5px solid black;
+    border-left:    5px double greenyellow;
+    border-bottom:  none;
+    border-right:   5px groove violet; 
+    padding:        15px; /* Is the space between the border and the content */
+    margin:         5%;   /* Is the space between the border and the edge of the page */
+}
+
+.box1{
+    width:              10%;
+    background-color:   red;
+    padding:            10px;
+}
+.box2{
+    width:              15%;
+    background-color:   green;
+    padding:            10px;
+}
+
+
 
