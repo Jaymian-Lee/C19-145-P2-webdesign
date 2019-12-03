@@ -43,9 +43,11 @@ h5{
 h6{
     font-size: 30pt;
 }
+
 h7{
     font-size: 22pt;
 }
+
 h8{
     font-size: 14pt;
 }
@@ -61,4 +63,7 @@ a:hover{ /* The styling of the link in mouseover*/
     background-color: var(--SecondaryColor);
 }
 
-
+.boxmodel{
+    border: 4px red;
+    border-style: dotted;
+}
