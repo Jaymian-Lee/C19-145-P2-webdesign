@@ -1,0 +1,87 @@
+/*
+This stylesheet is connected to the main website
+Created on : 1-nov-2019, 11:18:57
+Author     : J. de Klijn
+*/
+
+/* Main styling */
+:root{ /* Styling variables */
+    --PrimaryColor:     #aa9773; /* Yellow green*/
+    --SecondaryColor:   #87a237; /* Green */
+    --ShadeOfWhite:     #fff7d2; /* Very light green*/
+    --ShadeOfBlack:     #201800; /* Darkest green*/
+    --SecondBlack:      #655509; /* Dark green */   
+}
+
+
+body{
+    background: var(--PrimaryColor); 
+    color: var(--ShadeOfWhite);
+    font-size: 14pt;
+}
+
+h1{
+    color: var(--ShadeOfWhite);
+    font-size: 72pt;
+}
+
+h2{
+    color: var(--ShadeOfBlack);
+    font-size: 64pt;
+}
+h3{
+    font-size: 54pt;
+}
+h4{
+    font-size: 46pt;
+}
+h5{
+    font-size: 38pt;
+}
+h6{
+    font-size: 30pt;
+}
+h7{
+    font-size: 22pt;
+}
+h8{
+    font-size: 14pt;
+}
+
+a{ /* the styling of a link */
+    color: var(--ShadeOfWhite);
+    background-color: var(--PrimaryColor);
+    text-decoration: none;
+}
+
+a:hover{ /* The styling of the link in mouseover*/
+    color: var(--ShadeOfBlack);
+    background-color: var(--SecondaryColor);
+}
+
+/* =============== CSS Classes ======================== */
+
+.boxmodel{
+    width:          50%;
+    /* border:       10px dotted red; is the line on the outside of the content */
+    border-top:     5px solid black;
+    border-left:    5px double greenyellow;
+    border-bottom:  none;
+    border-right:   5px groove violet; 
+    padding:        15px; /* Is the space between the border and the content */
+    margin:         5%;   /* Is the space between the border and the edge of the page */
+}
+
+.box1{
+    width:              10%;
+    background-color:   red;
+    padding:            10px;
+}
+.box2{
+    width:              15%;
+    background-color:   green;
+    padding:            10px;
+}
+
+
+

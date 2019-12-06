@@ -1,32 +1,46 @@
 <!DOCTYPE html>
 <!--
-Function: To demonstrate the CSS styling principles.
+Function: The basic template of website.
 Author: J. de Klijn
-Date: 1-11-2019
-Last edited 1-11-2019 by J. de Klijn
+Date: 2-12-2019
+Last edited 2-12-2019 by J. de Klijn
 -->
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>CSS demo</title>
-        <!-- Link to an external stylsheet -->
+        <title>Responsive template</title>
+        <!-- Link to an external stylesheet -->
         <link rel='stylesheet' type='text/css' href='./stylesheets/mainstyle.css'>
     </head>
     <body>
-        <h1 style='color:green;'> CSS styling demo </h1>
-        <h1>Second header without inline styling</h1>
-        <h4>Een regel tekst in H4 heading</h4>
-       
-        <a href='./html/welkom.html'>De link naar de welkom pagina</a>
-        <hr>
-        <div class='boxmodel'>
-            This text is a demo text for the boxmodel.
-        </div>
-        <div class='box1'>
-            The red box
-        </div>
-        <div class='box2'>
-            The green box
-        </div>
+        <div class='container'> <!-- Start of the main container -->
+            <div class='innerContainer'> <!-- Start class innercontainer-->
+                <div class='blockContainer'> <!-- Start block container -->
+                    <div class='navbar'>HOME Menu1 Menu2</div><!-- End class navbar -->
+                </div> <!-- End block container -->
+                <h1>Responsive website template</h1> <!-- Header text -->
+                <div class='blockContainer'> <!-- Start block container -->
+                    <p>fgfgas  sdkfa;ldfasd; hsdhsyp88yhkjsdf lkjiououasdfd
+                    hassdfjhsd;fh;; oioopfd oiypoypoasd jdadjladjaLDJK
+                    ;ashfsd;fhas;fh opierutpoiwuoiasf aldkjfa;kjsd;jk
+                    </p>
+                </div> <!-- End block container -->
+                <h2>Header 2 of the website</h2>
+                <div class='blockContainer'> <!-- Start block container -->
+                    <p>fgfgas  sdkfa;ldfasd; hsdhsyp88yhkjsdf lkjiououasdfd
+                    hassdfjhsd;fh;; oioopfd oiypoypoasd jdadjladjaLDJK
+                    ;ashfsd;fhas;fh opierutpoiwuoiasf aldkjfa;kjsd;jk
+                    </p>
+                </div> <!-- End block container -->
+                <div class='row'>
+                    <div class='col-1 yellow'>1 col</div>
+                    <div class='col-9 green'>
+                        <div class='col-5 yellow'>5 col</div>
+                        <div class='col-6 blue'>6 col</div>
+                    </div>
+                </div>
+                
+            </div> <!-- End innercontainer-->
+        </div> <!-- End main container --> 
     </body>
 </html>
