@@ -42,3 +42,96 @@ body{
     margin-left:        10%;
     background-color:   var(--SecondBlack); 
 }
+.row{
+    width:              100%;
+    display:            flex;
+}
+.col-1{
+    width:              8.33%;
+    display:            flex;
+    margin-left:        10px;
+    margin-right:       10px;
+    padding:            5px;
+}
+.col-2{
+    width:              16.67%;
+    display:            flex;
+    margin-left:        10px;
+    margin-right:       10px;
+    padding:            5px;
+}
+.col-3{
+    width:              25%;
+    display:            flex;
+    margin-left:        10px;
+    margin-right:       10px;
+    padding:            5px;
+}
+.col-4{
+    width:              33.33%;
+    display:            flex;
+    margin-left:        10px;
+    margin-right:       10px;
+    padding:            5px;
+}
+.col-5{
+    width:              41.67%;
+    display:            flex;
+    margin-left:        10px;
+    margin-right:       10px;
+    padding:            5px;
+}
+.col-6{
+    width:              50%;
+    display:            flex;
+    margin-left:        10px;
+    margin-right:       10px;
+    padding:            5px;
+}
+.col-7{
+    width:              58.33%;
+    display:            flex;
+    margin-left:        10px;
+    margin-right:       10px;
+    padding:            5px;
+}
+.col-8{
+    width:              66.67%;
+    display:            flex;
+    margin-left:        10px;
+    margin-right:       10px;
+    padding:            5px;
+}
+.col-9{
+    width:              75%;
+    display:            flex;
+    margin-left:        10px;
+    margin-right:       10px;
+    padding:            5px;
+}
+.col-10{
+    width:              83.33%;
+    display:            flex;
+    margin-left:        10px;
+    margin-right:       10px;
+    padding:            5px;
+}
+.col-11{
+    width:              91.67%;
+    display:            flex;
+    margin-left:        10px;
+    margin-right:       10px;
+    padding:            5px;
+}
+.col-12{
+    width:              100%;
+    display:            flex;
+    margin-left:        10px;
+    margin-right:       10px;
+    padding:            5px;
+}
+
+.green  {background-color: green;}
+.blue   {background-color: blue;}
+.red    {background-color: red;}
+.cyan   {background-color: cyan;}
